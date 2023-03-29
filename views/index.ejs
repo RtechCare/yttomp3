@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="/img/yt.png" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>YMP3</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="Terms">Terms</a></li>
+      <li><a href="/copyright">Copyright</a></li>
+      <li><a href="/privacy-policy">Privacy Policy</a></li>
+    </ul>
+  </nav>
+  
+
+  <div class="top-container">
+    <div class="width-container">
+    <form action="/convert-mp3" method="POST" id="form">
+      <h1>YT To MP3 - YouTube to MP3 Converter</h1>
+      <h4>ENTER URL HERE</h4>
+      <div>
+        <input type="text" name="videoID" placeholder="Enter URL Here..."><button id="submit-btn">Convert</button>
+      </div>
+    </form>
+  </div>
+  </div>
+
+  <div class="bottom-container">
+    <div class="width-container">
+    <% if (typeof success != "undefined" && success) { %>
+      <div class="success">
+        <p> <%= song_title %> </p>
+        <a href="<%= song_link %>"><button id="download-btn">DOWNLOAD</button></a>
+      </div>
+    <% } else if (typeof success != "undefined" && !success) { %>
+      <div class="errors">
+        <p> <%= message %> </p>
+      </div>
+    <% } %>
+    <p>With the usage of our Web-App you are accepting our Terms of Use</p>
+  </div>
+  
+  </div>
+  <div class="width-container">
+   
+    <div class="main-heading">
+      <h2>YT To MP3 Converter</h2>
+      <p>YT To MP3 converter -- is a website application that lets you download mp3 audio from a YouTube video for free. YouTube is a very popular and great site with lots of videos. but it doesn't have a download option. With YT To MP3 you can convert YouTube videos to MP3 files quickly and easily.</p>
+      <p>You can use our website on any device computer, tablet, or phone. You don't need to download any software or apps. Our YouTube converter is super fast and provides you high quality audio.</p>
+      <p>All you need to do is copy the link of the YouTube video you want to download, paste it on our website, and click the "convert" button. In just a few seconds, you'll be able to download the audio file.</p>
+      <p>At YT To MP3 we understand how important it is to have good audio quality. That's why we use the latest technology to ensure that our conversions are of the highest quality possible. You can enjoy your favorite audio without any loss of quality.</p>
+      <p>Using YT To MP3 is also really easyto use . Our website has a simple user friendly interface that makes it easy to navigate. Even if you're not tech savvy, you can use our website to convert your favorite YouTube video to MP3 files.</p>
+      <p>So next time you find a cool video on YouTube remember to use YT To MP3 to download it as an MP3 file. It's free.      </p>
+      <p class="note">Please note that downloading copyrighted videos from youtube is illegal and discouraged by the platform. The website should be careful not to promote such activities
+      </p>
+    </div>
+
+    <div class="image-container">
+      <h2>How to Convert a YouTube To Mp3? Just follow our step by step guide.</h2>
+      <h3>1. Open YouTube.com and search for the video you would like to download</h3>
+      <img src="img/1.webp" alt="image1" class="image">
+      <h3>2. Then, just copy the video URL from your browser address bar.</h3>
+      <img src="img/2.webp" alt="image2" class="image">
+      <h3>3. Or click on share and then copy link.</h3>
+      <img src="img/3.webp" alt="image3" class="image">
+      <h3>4. Open our Website and paste the video URL in our converterThen, simply click on the Convert button. The conversion will be initiated, and may take a few seconds.</h3>
+      <img src="img/4.webp" alt="image4" class="image">
+      <h3>5. As soon as the conversion of the video is completed you will see a Title of Video and Download  button. Just click on Download, and the download shall start.</h3>
+      <img src="img/5.webp" alt="image5" class="image">
+    </div>
+
+
+
+
+
+    
+
+      <!-- Feature section -->
+      <h2>Features Of YT to MP3</h2>
+    <div class="features-section">
+      
+      <div class="feature">
+        <div class="icon">
+          <img src="img/unlimited.svg" alt="Unlimited">
+        </div>
+        <div class="title">Unlimited Conversions</div>
+        <div class="desc">You can convert and download as many YouTube videos as you want, without any limitations.</div>
+      </div>
+      <div class="feature">
+        <div class="icon">
+          <img src="img/fast.svg" alt="Unlimited">
+        </div>
+        <div class="title">Fastest Encoders</div>
+        <div class="desc">We use the fastest encoders available to ensure that your YouTube videos are converted and downloaded as quickly as possible.</div>
+      </div>
+      <div class="feature">
+        <div class="icon">
+          <img src="img/long.svg" alt="Unlimited">
+        </div>
+        <div class="title">Long Videos Support</div>
+        <div class="desc">Our tool can convert YouTube videos that are up to 2 hours long.</div>
+      </div>
+      <div class="feature">
+        <div class="icon">
+          <img src="img/signup.svg" alt="Unlimited">
+        </div>
+        <div class="title">No Signup Required</div>
+        <div class="desc">Our conversion service is free for all, and you don't need to register or sign up to use it.</div>
+       </div>
+       <div class="feature">
+        <div class="icon">
+          <img src="img/ease.svg" alt="Unlimited">
+        </div>
+        <div class="title">Simple to Use</div>
+        <div class="desc">It's easy to use our Yt To Mp3 Converter. You just need to copy and paste the YouTube URL, and we will automatically fetch the video from YouTube and convert it to the .mp3 extension.</div>
+       </div>
+       <div class="feature">
+        <div class="icon">
+          <img src="img/secure.svg" alt="Unlimited">
+        </div>
+        <div class="title">Fully Safe & Secure:</div>
+        <div class="desc">Our tool is fully safe and secure, and we take great care to ensure that your personal information and data are protected.
+    </div>
+       </div>
+       </div>
+
+
+       <div class="faq">
+        <h2>Yt To Mp3 FAQs</h2>
+        <div class="question">Can I use Yt To Mp3 for free?</div>
+        <div class="answer">Yes, you can use Yt To Mp3 for free. You don't have to pay anything to use it.</div>
+    
+        <div class="question">How do I use Yt To Mp3?</div>
+        <div class="answer">To use Yt To Mp3, you just have to copy the YouTube video link you want to convert, paste it into the conversion box on the Yt To Mp3 website, and then click the "Convert" button. After the conversion, you can download the MP3 file to your device.</div>
+    
+        <div class="question">Do I need to install anything to use Yt To Mp3?</div>
+        <div class="answer">No, you don't need to install anything to use Yt To Mp3. It's a website, so you just need a web browser and an internet connection.</div>
+    
+        <div class="question">Can I convert videos from other websites besides YouTube?</div>
+        <div class="answer">No, you can only convert YouTube videos with Yt To Mp3 right now.</div>
+    
+        <div class="question">Is it legal to convert YouTube videos to MP3?</div>
+        <div class="answer">In most countries, it's legal to convert YouTube videos to MP3 for personal use. But it's illegal to distribute copyrighted material without permission, so be careful.</div>
+    
+        <div class="question">Is Yt To Mp3 safe to use?</div>
+        <div class="answer">Yes, Yt To Mp3 is safe to use. It uses SSL encryption to protect your data, and it doesn't store any personal information or download history.</div>
+    
+        <div class="question">How long does it take to convert a YouTube video to MP3?</div>
+        <div class="answer">It depends on the length of the video and your internet speed, but usually
+    it only takes a few seconds to convert a short video.</div>
+    
+        <div class="question">Can I download multiple MP3 files at once?</div>
+        <div class="answer">No, you can only convert and download one video at a time.</div>
+    
+        <div class="question">How long do you keep the converted files on your server?</div>
+        <div class="answer">The converted files are only kept on the server for a few hours, and then they're automatically deleted.</div>
+    
+        <div class="question">Can I download high quality MP3 music from YouTube?</div>
+        <div class="answer">Yes, Yt To Mp3 can convert YouTube videos to high quality 320kbps MP3 files.</div>
+    
+        <div class="question">Can I download MP3s from YouTube without installing software?</div>
+        <div class="answer">Yes, you can use Yt To Mp3 to download MP3s from YouTube without installing any software.</div>
+    
+        <div class="question">Can I download YouTube music on my iPhone or Android?</div>
+        <div class="answer">Yes, you can use Yt To Mp3 on any device with a web browser to download
+    YouTube music.</div>
+        <div class="question">Where are the downloaded MP3 files saved?</div>
+        <div class="answer">After downloading, the MP3 files are usually saved in the "Downloads" folder on your device or in the "download history" of your web browser.</div>
+        
+        <div class="question">Which video platforms does Yt To Mp3 support?</div>
+        <div class="answer">Yt To Mp3 only supports YouTube videos.</div>
+        <div class="question">Is there a limit to the video length I can convert?</div>
+        <div class="answer">Yes, the maximum length of a video you can convert with Yt To Mp3 is 120 minutes. </div>
+        <div class="question">What should I do if the conversion doesn't start?</div>
+        <div class="answer">If the conversion doesn't start, try clearing your browser cache and reloading the Yt To Mp3 website. If that doesn't work, you can contact. </div>
+      </div> 
+
+
+
+
+
+
+</div>
+<script>
+  // Get all the FAQ questions
+const questions = document.querySelectorAll('.question');
+
+// Add click event listeners to each question
+questions.forEach((question) => {
+question.addEventListener('click', () => {
+  // Toggle the active class on the clicked question
+  question.classList.toggle('active');
+  
+  // Get the answer element corresponding to the clicked question
+  const answer = question.nextElementSibling;
+  
+  // Toggle the active class on the answer element
+  answer.classList.toggle('active');
+});
+});
+
+</script>
+</body>
+
+</html>
